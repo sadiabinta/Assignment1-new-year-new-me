@@ -36,13 +36,14 @@
 /*  Banner design */
 .banner{
     padding:430px 320px 130px 200px;
-    text-align: left;
+    
 }
 .banner-details{
     width:416px;
     height:400px;
     padding-left:800px;
     padding-top:200px;
+    text-align: left;
 
 
 }
@@ -66,4 +67,63 @@ ul li::before{
     color:green;
     padding-bottom:8px;
 
+}
+/* plan section design */
+.my-plan{
+    text-align: center;
+    padding-top:130px
+
+}
+.plan-heading{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+.plan-container{
+    display: flex;
+    gap:86px;
+    padding:50px 230px 130px 230px;
+
+    
+}
+.plan-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+}
+.gradient-img{
+    background-image: linear-gradient(to left,rgba(245, 250, 252, 0.575),rgba(19, 65, 117, 0.73)),url("../images/watch.png");
+    background-size:cover;
+    padding:130px 230px;
+    text-align: left;
+
+
+}
+.grad-heading{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding:60px 616px 24px 64px;
+}
+.future{
+    background-color: black;
+    color: #F8F8F8;
+    display:flex;
+    text-align: left;
+    /* width:1600px; */
+    height:577px;
+    gap:50px;
+    padding:130px 230px;
+}
+.future-description{
+    width: 485px;
+    height:317px;
+    padding-right:330px;
+
+}
+.future-para{
+    padding-bottom: 16px;
+}
+#btn-last{
+    padding:10px;
 }
