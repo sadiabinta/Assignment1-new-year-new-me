@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding:0;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -10,20 +11,27 @@
     background-size: cover;
     width: 1600px;
     height: 800px;
-    padding-right: 230px;
+    /* padding-right: 230px; */
+    
+}
+.header-div{
     text-align: right;
+    padding: 216px 230px 24px 845px;
+
 }
 
 .header-heading {
-    padding: 216px 0px 24px 845px;
+    
     font-weight: 700;
     font-size: 65px;
     color: #FFFFFF;
+    padding-bottom: 24px;
 }
 
 .header-description {
-    padding: 0px 0px 32px 876px;
+    /* padding: 0px 0px 32px 876px; */
     color: #FFFFFF;
+    padding-bottom: 32px;
 }
 
 .btn-primary {
